@@ -1,0 +1,130 @@
+
+.dashboard {
+  font-family: Poppins, sans-serif;
+  padding: 20px;
+  margin:0px;
+  padding:0px;
+  background-color: #f4f4f4;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.searchbr {
+  padding: 8px;
+  border-radius: 14px;
+  border: 1px solid #ccc;
+}
+
+
+.title {
+  position:relative;
+  display:flex;
+  font-weight: bold;
+  /* justify-content:center; */
+  font-size: 35px;
+  text-align: center;
+  margin-top:0;
+}
+.logout-button {
+  position: absolute;  
+  top: 20px;  
+  right: 20px;         
+  background-color: #e74c3c;
+  color: white;       /* White text color */
+  border: none;       /* Remove border */
+  padding: 8px 12px;  /* Padding for spacing */
+  cursor: pointer;    /* Pointer cursor on hover */
+  border-radius: 14px; /* Rounded corners */
+  font-size: 16px;  /* Font size */
+  font-weight: bold;  /* Bold text */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.logout-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: scale(1.05);    /* Slightly enlarge button on hover */
+}
+
+.logout-button:focus {
+  outline: 2px solid #f39c12; /* Add an outline for focus state */
+  outline-offset: 4px;        /* Space between outline and button */
+}
+
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+
+  background-color: #e74c3c; /* Red background for the logout button */
+  color: white;       /* White text color */
+  border: none;       /* Remove border */
+  padding: 8px 12px;  /* Padding for spacing */
+  cursor: pointer;    /* Pointer cursor on hover */
+  border-radius: 14px; /* Rounded corners */
+  font-size: 16px;    /* Font size */
+  /* font-weight: semibold;  Bold text */
+}
+
+/* Modal container */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal is on top */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Close button */
+.close-modal {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  background-color: #e74c3c; /* Red background */
+  border: none;
+  color: white; /* White text */
+  padding: 3px 7px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold; /* Bold text */
+}
+
+.close-modal:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+

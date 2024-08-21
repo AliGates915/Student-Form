@@ -1,0 +1,19 @@
+.chart{
+    font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Chart {
+    text-align: center;
+    padding: 20px;
+    width:100%;
+    color:#01d28e;
+    font-size:20px;
+    /* background-color:#01d28e; */
+}
+
+canvas {
+    max-width: 1000px;
+    margin: auto;
+}

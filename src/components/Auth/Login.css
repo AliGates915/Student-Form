@@ -1,0 +1,104 @@
+.app {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f8f9fd; */
+  background-image: url('./1.jpg'); /* Set the path to your background image */
+  background-size: cover; /* Make the background image cover the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed;
+}
+input:focus {
+  border-color: #ff574e;
+}
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 12px;
+  font-size: 16px;
+}
+.login-form{
+  width: 28vw;
+  height:65vh;
+  background-color: ;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 95%;
+    margin-top: 8px;
+    color: #2aa15f;
+    padding: 8px 14px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #2aa15f;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 0 #2aa15f;
+    transition: .3s;
+}
+button:hover ,input[type=submit]:hover {
+    color: #f0f0f0;
+    box-shadow: inset 250px 0 0 0 #2aa15f;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.error {
+  margin:0;
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  display: flex;
+  color: #2aa15f;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px 0;
+}
+span {
+  color: #ff574e;
+  padding-left: 2px;
+}
+
+input {
+  display: block;
+  width: 90%;
+  
+  height: 35px;
+  /* padding: 5 10px; */
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+}
+.forgot-password{
+  color: #2aa15f;
+  margin:14px;
+  cursor:pointer;
+
+}
